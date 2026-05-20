@@ -23,7 +23,7 @@ class AgentAlpha:
 
     def tavily_web_search(self, user_query):
 
-        web_search_output = self.tavily_client.search(query=user_query, search_depth="basic", max_results=3)
+        web_search_output = self.tavily_client.search(query=user_query, search_depth="basic", max_results=10)
 
         return web_search_output
 
