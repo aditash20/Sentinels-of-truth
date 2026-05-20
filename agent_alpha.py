@@ -72,7 +72,7 @@ class AgentAlpha:
 
 if __name__ == "__main__":
 
-    input = "is pm narendra modi gay?"
+    input = "is pm narendra modi bengali"
 
     agent_alpha = AgentAlpha()
 
